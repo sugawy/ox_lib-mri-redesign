@@ -30,10 +30,10 @@ jobs:
 
     - name: Commit changes
       run: |
-        git checkout -b temp-branch  # Criar uma branch temporária
+        git checkout master
         git add file_list.txt
         git commit -m "Update file_list.txt [skip ci]" || echo "No changes to commit"
-        git push origin temp-branch  # Push da branch temporária para não alterar a tag original
+        git push origin master
 
     - name: Upload file_list.txt as an artifact (opcional)
       uses: actions/upload-artifact@v3
