@@ -1,8 +1,13 @@
 *.txt
 *.filelistignore
 *.git*
-*package
+*package*
 *.editorconfig
 *LICENSE
 *.png
 *.md
+*src*
+pnpm*
+tsconfig*
+vite*
+patches*
