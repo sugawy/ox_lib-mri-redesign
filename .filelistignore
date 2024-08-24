@@ -7,7 +7,7 @@
 *.png
 *.md
 *src*
-pnpm*
-tsconfig*
-vite*
-patches*
+*pnpm*
+*tsconfig*
+*vite*
+*patches*
