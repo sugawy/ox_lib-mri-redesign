@@ -1,10 +1,5 @@
 ./init.lua
-./web/tsconfig.json
 ./web/index.html
-./web/pnpm-lock.yaml
-./web/patches/react-hot-toast@2.4.0.patch
-./web/tsconfig.node.json
-./web/vite.config.mjs
 ./locales/hu.json
 ./locales/es.json
 ./locales/et.json
